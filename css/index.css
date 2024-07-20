@@ -136,11 +136,6 @@ header nav ul li i {
   line-height: 30px;
   text-align: center;
   color: white;
-  background: linear-gradient(
-    to right,
-    #f55f8d 0,
-    #f8ae56 51%,
-    #f55f8d 100%
-  ) !important;
+  background: linear-gradient(to right, #f55f8d 0, #f8ae56 51%, #f55f8d 100%);
   border-radius: 50%;
 }
