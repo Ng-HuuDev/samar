@@ -8,7 +8,8 @@
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1200px;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -45,6 +46,11 @@ li a {
 }
 /* CSS HEADER */
 
+header {
+  display: flex;
+  justify-content: center;
+}
+
 header .container {
   display: flex;
   justify-content: space-between;
@@ -76,7 +82,65 @@ header nav ul li a {
 }
 
 header nav ul li i {
-    font-size: 10px;
-    padding-left: 5px;
-    padding-bottom: 5px;
+  font-size: 10px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+/* CSS CAROUSEL */
+
+#carousel {
+  background-image: url(../img/pic2.png);
+  height: 80vh;
+  background-position: top;
+  background-size: 100%;
+  padding-top: 150px;
+}
+
+#carousel .container {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+#carousel .carousel__left {
+  padding-right: 40px;
+}
+
+#carousel .carousel__left p {
+  padding: 20px 0;
+}
+
+#carousel .carousel__left p:first-child {
+  color: #f55f8d;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#carousel .carousel__left h2 {
+  font-size: 70px;
+  line-height: 1.1;
+  font-weight: 800;
+  color: black;
+  margin-bottom: 20px;
+}
+
+#carousel .carousel__left ul li {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+#carousel .carousel__left ul li i {
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+  background: linear-gradient(
+    to right,
+    #f55f8d 0,
+    #f8ae56 51%,
+    #f55f8d 100%
+  ) !important;
+  border-radius: 50%;
 }
