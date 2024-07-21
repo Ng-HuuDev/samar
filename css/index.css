@@ -1,3 +1,5 @@
+/* CSS GLOBAL*/
+
 * {
   margin: 0;
   padding: 0;
@@ -44,27 +46,44 @@ li a {
 .btn:hover {
   background-position: right center;
 }
+
+.title {
+  color: #f55f8d;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.title__h2 {
+  font-size: 70px;
+  line-height: 1.1;
+  font-weight: 800;
+  color: black;
+  margin-bottom: 20px;
+}
 /* CSS HEADER */
 
 header {
   display: flex;
   justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 header .container {
   display: flex;
   justify-content: space-between;
-  background: #000;
+  /* background: #000; */
   height: 80px;
+  padding-top: 40px;
 }
 
-header .container img {
-  padding-top: 12px;
-}
 header nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  padding-top: 15px;
 }
 
 header nav ul {
@@ -78,7 +97,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: white;
+  color: #000;
 }
 
 header nav ul li i {
@@ -104,25 +123,12 @@ header nav ul li i {
 }
 
 #carousel .carousel__left {
+  width: 60%;
   padding-right: 40px;
 }
 
 #carousel .carousel__left p {
   padding: 20px 0;
-}
-
-#carousel .carousel__left p:first-child {
-  color: #f55f8d;
-  font-size: 22px;
-  font-weight: 600;
-}
-
-#carousel .carousel__left h2 {
-  font-size: 70px;
-  line-height: 1.1;
-  font-weight: 800;
-  color: black;
-  margin-bottom: 20px;
 }
 
 #carousel .carousel__left ul li {
@@ -138,4 +144,23 @@ header nav ul li i {
   color: white;
   background: linear-gradient(to right, #f55f8d 0, #f8ae56 51%, #f55f8d 100%);
   border-radius: 50%;
+  margin-right: 10px;
+}
+
+#carousel .carousel__right {
+  width: 40%;
+}
+
+#carousel .carousel__right .banner {
+  width: 100%;
+}
+
+/* CSS SERVICE */
+#services {
+  background-image: url(../img/bg2.png);
+  background-position: top center;
+  background-size: cover;
+  height: 80vh;
+  text-align: center;
+  padding-top: 100px;
 }
