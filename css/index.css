@@ -157,10 +157,43 @@ header nav ul li i {
 
 /* CSS SERVICE */
 #services {
+  /* background: #000; */
   background-image: url(../img/bg2.png);
   background-position: top center;
   background-size: cover;
   height: 80vh;
   text-align: center;
   padding-top: 100px;
+}
+
+#services .services__content {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100 / 3);
+}
+
+#services .services__item {
+  background: white;
+  padding: 30px 50px;
+  margin: 20px 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 8px;
+}
+
+#services .title {
+  margin-bottom: 20px;
+}
+
+#services .services__item img {
+  width: 200px;
+}
+
+#services .services__item h3 {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 25px 0;
+}
+
+#services .services__item p {
+  line-height: 30px;
 }
