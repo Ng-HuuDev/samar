@@ -7,6 +7,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+  line-height: 1.6;
 }
 
 .container {
@@ -54,7 +55,7 @@ li a {
 }
 
 .title__h2 {
-  font-size: 70px;
+  font-size: 60px;
   line-height: 1.1;
   font-weight: 800;
   color: black;
@@ -196,4 +197,57 @@ header nav ul li i {
 
 #services .services__item p {
   line-height: 30px;
+}
+
+/* CSS ABOUT */
+
+#about .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#about .about__left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#about .about__left img {
+  width: 100%;
+  border-radius: 0 50px 50px 0;
+  position: absolute;
+  right: 80px;
+}
+
+#about .about__right {
+  width: 50%;
+  padding: 20px;
+}
+
+#about .about__right .title {
+  margin-bottom: 20px;
+}
+
+#about .about__right .title__h2 {
+  margin-bottom: 30px;
+}
+
+#about .about__right p {
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+#about .about__right li {
+  margin-bottom: 20px;
+}
+
+#about .about__right li i {
+  height: 25px;
+  width: 25px;
+  line-height: 23px;
+  text-align: center;
+  color: #f55f8d;
+  border: 1px solid #f55f8d;
+  border-radius: 50%;
+  margin-right: 10px;
 }
