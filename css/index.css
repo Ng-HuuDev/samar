@@ -291,3 +291,69 @@ header nav ul li i {
   font-size: 60px;
   font-weight: bold;
 }
+
+/* CSS FEATURE */
+#feature {
+  background-image: url(../img/bg2.png);
+  background-image: url(../img/bg2.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 0;
+  padding-top: 115px;
+  overflow: hidden;
+}
+
+#feature .container {
+  display: flex;
+}
+
+#feature .title,
+#feature .title__h2 {
+  margin-bottom: 20px;
+}
+
+#feature .feature__left {
+  width: 50%;
+}
+
+.feature__item {
+  /* margin-bottom: 25px;
+  margin-right: 25px; */
+  padding: 0 50px 30px 0;
+}
+
+.feature__item .feature__bg {
+  background: white;
+  border-radius: 10px;
+  border: 1px solid white;
+  display: flex;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 20px;
+}
+
+.feature__item h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.feature__item i {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  color: #f55f8d;
+  font-size: 60px;
+  margin: 10px 20px 10px 10px;
+}
+
+.feature__middle {
+  padding: 0 0 30px 50px;
+}
+
+#feature .feature__right {
+  width: 50%;
+}
+
+#feature .feature__right img {
+  width: 100%;
+}
