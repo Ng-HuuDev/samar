@@ -543,6 +543,11 @@ header nav ul li i {
   margin-right: 20px;
 }
 
+.news__user i,
+.news__user span {
+  color: #f55f8d;
+}
+
 /* FOOTER */
 footer .newsletter {
   padding: 50px 60px;
@@ -566,7 +571,7 @@ footer .newsletter h3 {
 
 footer .newsletter .email {
   width: 50%;
-  display: flex;
+  /* display: flex; */
 }
 
 footer .newsletter .email button {
