@@ -725,3 +725,35 @@ footer .newsletter .email input {
   color: grey;
   transition: 0.5s;
 }
+/* CSS FOOTER COPYRIGHT */
+
+.footer__cr {
+  background: #1f343b;
+  position: relative;
+}
+
+.footer__cr .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.cr__left span {
+  color: #f55f8d;
+}
+
+.cr__right i {
+  color: white;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background: rgba(236, 236, 236, 0.13);
+  border-radius: 50%;
+  margin-left: 10px;
+  transition: 0.5s;
+}
+
+.cr__right i:hover {
+  background: #f55f8d;
+}
