@@ -506,6 +506,7 @@ header nav ul li i {
 
 .news__list .news__item .news__body {
   padding: 40px 20px 15px;
+  text-align: left;
 }
 
 .news__list .news__item .news__body h3 {
